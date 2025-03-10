@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import BasicTabs from './BasicTabs'; 
+import ConfigPage from './pages/ConfigPage';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './theme';
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <div className="App">
         <header className="App-header">
-          <BasicTabs />
+          <ConfigPage />
         </header>
       </div>
     </ThemeProvider>
