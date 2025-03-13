@@ -31,7 +31,7 @@ export default function ConfigPage(): JSX.Element {
     <>
       <CssBaseline />
       <Header />
-      <Container sx={{ mt: 5 }}>
+      <Container maxWidth="xl" sx={{ mt: 3 }}>
         <Card sx={{ maxWidth: 1040, margin: "auto", boxShadow: 3, p: 2 }}>
           <CardContent>
             <Typography variant="h5" gutterBottom align="center">
