@@ -32,7 +32,7 @@ export default function ConfigPage(): JSX.Element {
       <CssBaseline />
       <Header />
       <Container maxWidth="xl" sx={{ mt: 3 }}>
-        <Card sx={{ maxWidth: 1040, margin: "auto", boxShadow: 3, p: 2 }}>
+        <Card sx={{ width: "100%", maxWidth: "100%", margin: "auto", boxShadow: 3, p: 2 }}>
           <CardContent>
             <Typography variant="h5" gutterBottom align="center">
               {view === "search" ? "Search Page" : "My Configs"}
